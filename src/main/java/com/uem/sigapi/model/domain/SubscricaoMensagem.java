@@ -8,8 +8,9 @@ import jakarta.persistence.Entity;
 
 @Entity(name="subsricaomensagens")
 public class SubscricaoMensagem {
-    private Subscricao subscricao;
+    private Usuario usuario;
     private String mensagem;
+    private String lida;
 
 }
 
