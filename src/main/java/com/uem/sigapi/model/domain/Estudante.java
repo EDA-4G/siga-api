@@ -14,6 +14,7 @@ public class Estudante {
     private String telefone;
     private String genero;
     private String dataNascimento;
+    private Curso curso;
     
 
     
