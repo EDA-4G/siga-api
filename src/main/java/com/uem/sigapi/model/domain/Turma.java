@@ -8,7 +8,7 @@ import jakarta.persistence.Entity;
 
 @Entity(name="turmas")
 public class Turma {
-    private String nomeTurma;
+    private String nome;
     private int ano;
     private int semestre;
     private Curso curso;
