@@ -6,10 +6,11 @@ import jakarta.persistence.Entity;
 @Setter
 @AllArgsConstructor
 
-@Entity(name="cursos")
-public class Curso {
+@Entity(name="departamentos")
+public class Departamento {
     private String nome;
-    private int duracao;
-    private Departamento departamento;
+    private String descricao;
 
+  
 }
+
