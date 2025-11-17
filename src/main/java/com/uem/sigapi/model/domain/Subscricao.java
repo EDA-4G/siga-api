@@ -9,8 +9,8 @@ import jakarta.persistence.Entity;
 @Entity(name="subscricoes")
 public class Subscricao {
     private Estudante estudante;
+    private Curso curso;
     private String situacao;
-
-  
+    
 }
 
