@@ -5,7 +5,8 @@ import jakarta.persistence.Entity;
 @Setter
 @AllArgsConstructor
 
-//@Entity(name="estudantes")
+// 
+@Entity(name="estudantes")
 public class Estudante {
     private String nome;
     private String apelido;
