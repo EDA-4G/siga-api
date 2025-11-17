@@ -1,7 +1,6 @@
 package com.uem.sigapi.repository;
 
 import com.uem.sigapi.model.domain.Estudante;
-import com.uem.sigapi.model.domain.Curso;
 import java.util.ArrayList;
 import java.util.List;
 
