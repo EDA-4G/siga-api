@@ -1,11 +1,12 @@
 package com.uem.sigapi.model.domain;
 import lombok.*;
 import jakarta.persistence.Entity;
+
 @Getter
 @Setter
+@NoArgsConstructor
 @AllArgsConstructor
 
-// 
 @Entity(name="estudantes")
 public class Estudante {
     private String nome;
@@ -15,8 +16,6 @@ public class Estudante {
     private String genero;
     private String dataNascimento;
     private Curso curso;
-    
-
     
 }
 
