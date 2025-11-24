@@ -10,9 +10,9 @@ public class SalaRepo {
 
    public SalaRepo() {
     if (salas.isEmpty()) {
-        salas.add(new Sala("Sala 101", 30, "Bloco A", "Ativa"));
-        salas.add(new Sala("Sala 102", 25, "Bloco B", "Ativa"));
-        salas.add(new Sala("Sala 103", 20, "Bloco C", "Inativa"));
+        salas.add(new Sala("Sala 101", 30, "Bloco A", "Disponivel"));
+        salas.add(new Sala("Sala 102", 25, "Bloco B", "Em Aulas"));
+        salas.add(new Sala("Sala 103", 20, "Bloco C", "Em Manuntencao"));
     }
 }
 
