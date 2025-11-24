@@ -4,6 +4,7 @@ import jakarta.persistence.Entity;
 
 @Getter
 @Setter
+@NoArgsConstructor
 @AllArgsConstructor
 
 @Entity(name="cursos")
